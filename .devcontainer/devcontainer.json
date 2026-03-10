@@ -1,0 +1,17 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "pomdtr.excalidraw-editor",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "name": "Node.js Dev Environment",
+  "postCreateCommand": "npm install"
+}
